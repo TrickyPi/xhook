@@ -5,8 +5,8 @@
   "main": "lib/xhook.js",
   "module": "es/xhook.js",
   "scripts": {
-    "start": "node dev.js",
-    "build": "node build.js",
+    "start": "node scripts/dev.js",
+    "build": "node scripts/build.js",
     "test": "playwright test",
     "test:server": "http-server --port 8080"
   },
